@@ -1,0 +1,145 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FaF8;
+    font-weight: bold;
+}
+button.section1{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #E5E7EB;
+    border: none;
+}
+.section1{
+    flex-grow: 1;
+    background-color: #1F2937;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+h1.section1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+    padding: 0;
+}
+p.section1{
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.section2.illustration{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    padding: 0;
+    gap: 8px;
+}
+.information{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.section3{
+    flex-grow: 1;
+    display: flex;
+    padding: 50px 75px;
+}
+button.illustration{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border:solid #3882F6;
+}
+.quote{
+    display: flex;
+    flex-grow: 1;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+.box.quote{
+    flex-grow: 0;
+    width: 600px;
+    flex-direction: column;
+    align-items: stretch;
+}
+.text.quote{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px;
+    flex-shrink: 0;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 50px;
+    flex-shrink: 0;
+}
+ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    border-radius: 16px;
+}
+h2.section3{
+    padding: 0;
+    margin: 0;
+    color: #E5E7EB;
+}
+p.section3{
+    padding: 0;
+    margin: 8px 0px;
+    color: #E5E7EB;
+}
